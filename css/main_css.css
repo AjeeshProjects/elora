@@ -57,6 +57,9 @@ nav.main_menu_out .nav-link{
 	margin:0 auto;
 	display:inline-block;
 }
+.main_menu_out ul li .dropdown-menu a:hover{
+	background:#ffc0dd;
+}
 .cat_product_box{
 	padding:10px 10px;
 	border:1px solid #f4ebeb;
@@ -198,6 +201,45 @@ nav.main_menu_out .nav-link{
 	top: 34%;
 	z-index: 1;
 }
+
+
+/* aboutus page */
+
+.main_banner_inner{
+	width:100%;
+	
+}
+.banner-inner{
+	width:100%;
+	position:relative;
+}
+.banner-item {
+	position:relative;
+}
+.banner-inner h1{
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	text-align:center;
+	width:100%;
+	font-size: 80px;
+	font-weight: 800;
+	color: #fff;
+	text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.contact_outer_box{
+	background-color: rgba(255, 255, 255, 0.8);
+	padding-top:15px;
+	margin-bottom:100px;
+}
+.contact_outer_box .c_box a{
+	font-size:30px;
+	color:#f04c3b;
+}
+.contact_bx_out p{ padding-left:20px; }
+.contact_bx_out .c_box.f_item{ padding-left:20px; }
 
 .footer-outer{
 	background:#000;
